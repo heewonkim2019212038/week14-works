@@ -1,0 +1,239 @@
+body {
+   background-color: black;
+   background-size: 1920px 1080px;
+}
+
+#wrap {
+    position: relative;
+}
+
+.background {
+    width: 95%;
+    height: 80%;
+    position: absolute;
+    z-index: 8;
+    /* top: 30%; */
+    left: 3%;
+    margin-top: 130px;
+    animation-name: snowtwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes snowtwinkle {
+    0%{
+        opacity: 0.8;
+    }
+    
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+
+.title1 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 15;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+
+.title2 {
+    width: 75%;
+    margin-top: 230px;
+    /* margin-left: 280px; */
+    left: 14%;
+    /* top: 50%; */
+    position: absolute;
+    z-index: 14;
+}
+
+
+
+.light1 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 10;
+    animation-name: lighttwinkle;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.light2 {
+    width: 101%;
+    display: block;
+    text-align: center;
+    margin: 10px 0 0 0;
+    top: 0;
+    margin-left: -10px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* .grass {
+    width: 49%;
+    height: 49%;
+    display: block;
+    margin-top: 200px;
+    margin-left: -70px;
+    left: 30%;
+    position: absolute;
+    z-index: 3;
+} */
+
+.grass2 {
+    width: 49%;
+    height: 49%;
+    margin-top: 150px;
+    margin-left: -65px;
+    left: 29%;
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+@-webkit-keyframes lighttwinkle {
+    0%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.section1 {
+    width: 800px;
+    height: 800px;
+    /* border: 5px solid red; */
+    box-sizing: border-box;
+    left: 30%;
+    top: 13%;
+    position: absolute;
+    z-index: 30;
+}
+
+/* .section1 .santakirby {
+    width: 300px;
+    height: 700px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 35;
+    top: 25%;
+    left: 40%;
+    /* margin-left: 220px;
+    margin-top: 185px; 
+
+
+.section1 .santakirby .santa {
+    width: 70px;
+} */
+
+.section1 .santakirby .santa1 {
+    /* left: 50%; */
+    /* z-index: 35; */
+}
+
+
+/* .kirby {
+    width: 70px;
+}
+.section1 {
+    width: 300px;
+    height: 2000px;
+    border: 3px solid red;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+}
+
+.section1 .kirbysanta {
+    width: 70px;
+} */
+
+/* 
+.title {
+    display: block;
+    width: 700px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+} */
+
+
+/* 
+.box {
+    width: 60%;
+    height: 500px;
+    float: left;
+    /* border: 5px solid blue; 
+    display: block;
+    float: left;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+}
+
+.box:hover {
+    width: 60%;
+    height: 500px;
+    float: left;
+    display: block;
+    float: left;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    animation-name: disappear;
+    transition-property: opacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes disappear {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.box2 {
+    width: 60%;
+    height: 500px;
+    float: left;
+    display: block;
+    float: left;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+/* } */
